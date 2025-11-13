@@ -10,6 +10,11 @@ This repository contains both **text-based** and **GUI-based** versions of a sim
 This project requires Python 3.8 or later.  
 The Tkinter library is included in most standard Python installations.
 
+## Features
+- Simple text-based guessing game
+- Tkinter GUI version
+- Shows basic use of branching, merging, and commits for assessment
+
 ## How to Run
 1. Open the terminal.
 2. Run the text version:
