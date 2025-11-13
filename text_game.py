@@ -22,6 +22,7 @@ def main():
                 break
         except ValueError:
             print("Please enter a valid number.")
+            print("You can guess as many times as you like, or press Ctrl+C to stop.")
 
 if __name__ == "__main__":
     main()
