@@ -6,14 +6,24 @@ class GuessingGame:
     def __init__(self, root):
         self.root = root
         self.root.title("Guessing Game")
+
+        # Slightly larger window for spacing
+        self.root.geometry("350x220")
+
+        # generate the secret number
         self.number = random.randint(1, 20)
         self.attempts = 0
 
-        tk.Label(root, text="I'm thinking of a number between 1 and 20").pack(pady=10)
+        # top label with slightly more padding
+        tk.Label(root, text="I'm thinking of a number between 1 and 20").pack(pady=15)
+
+        # input field with placeholder text
         self.entry = tk.Entry(root)
+        self.entry.insert(0, "Enter a number...")
         self.entry.pack(pady=5)
 
         tk.Button(root, text="Guess", command=self.check_guess).pack(pady=5)
+
         self.result = tk.Label(root, text="", fg="blue")
         self.result.pack(pady=10)
 
