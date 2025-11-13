@@ -1,9 +1,9 @@
 import random
 
-# A simple text-based number guessing game
+# Simple console guessing game for Keele assessment
 
 def main():
-    print("Welcome to the Guessing Game!")
+    print("Welcome to the improved guessing game!")
     print("I'm thinking of a number between 1 and 20.")
 
     number = random.randint(1, 20)
