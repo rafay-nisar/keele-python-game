@@ -21,7 +21,7 @@ def main():
                 print(f"Good job! You guessed it in {attempts} attempts.")
                 break
         except ValueError:
-            print("Please enter a valid number.")
+            print("Please enter a whole number between 1 and 20.")
             print("You can guess as many times as you like, or press Ctrl+C to stop.")
 
 if __name__ == "__main__":
